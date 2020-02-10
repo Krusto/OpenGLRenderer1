@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenglTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/krusto/CLionProjects/OpenglTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/krusto/CLionProjects/OpenglTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenglTest">
+				<Option output="/home/krusto/CLionProjects/OpenglTest/OpenglTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/krusto/CLionProjects/OpenglTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DGLFW_EXPOSE_NATIVE_X11"/>
+					<Add option="-DGLFW_INCLUDE_GLU"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/krusto/CLionProjects/OpenglTest/./Dependencies/ImGUI"/>
+					<Add directory="/home/krusto/CLionProjects/OpenglTest/./Dependencies/stb_image"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 OpenglTest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenglTest/fast">
+				<Option output="/home/krusto/CLionProjects/OpenglTest/OpenglTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/krusto/CLionProjects/OpenglTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DGLFW_EXPOSE_NATIVE_X11"/>
+					<Add option="-DGLFW_INCLUDE_GLU"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/krusto/CLionProjects/OpenglTest/./Dependencies/ImGUI"/>
+					<Add directory="/home/krusto/CLionProjects/OpenglTest/./Dependencies/stb_image"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 OpenglTest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/krusto/CLionProjects/OpenglTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/krusto/CLionProjects/OpenglTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imconfig.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_demo.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_draw.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_impl_glfw.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_impl_glfw.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_impl_opengl3.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_impl_opengl3.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_internal.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imgui_widgets.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imstb_rectpack.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imstb_textedit.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/ImGUI/imstb_truetype.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/stb_image/stb_image.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/Dependencies/stb_image/stb_image.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Camera.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Camera.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/ColoredModel.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/ColoredModel.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Commons.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Entity.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Entity.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/LightSource.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/LightSource.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/RawModel.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/RawModel.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Shader.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Shader.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/ShaderManager.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/ShaderManager.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Texture.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Texture.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/TexturedModel.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/TexturedModel.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Vertex.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/OpenGLClasses/Vertex.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/main.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/obj_parser.cpp">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/obj_parser.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/openglStuff.h">
+			<Option target="OpenglTest"/>
+		</Unit>
+		<Unit filename="/home/krusto/CLionProjects/OpenglTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

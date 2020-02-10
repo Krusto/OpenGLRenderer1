@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OpenglTest.dir/main.cpp.o  -o OpenglTest 

@@ -1,0 +1,3 @@
+/home/krusto/CLionProjects/OpenglTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/krusto/CLionProjects/OpenglTest/cmake-build-debug/CMakeFiles/OpenglTest.dir
+/home/krusto/CLionProjects/OpenglTest/cmake-build-debug/CMakeFiles/edit_cache.dir
